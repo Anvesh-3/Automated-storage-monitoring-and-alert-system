@@ -1,0 +1,10 @@
+import logging
+
+logging.basicConfig(
+    filename="storage_logs.log",
+    level=logging.INFO,
+    format="%(asctime)s - Disk: %(message)s"
+)
+
+def log_data(disk_usage, cpu, memory):
+    logging.info(f"{disk_usage:.2f}% | CPU: {cpu}% | Memory: {memory}%")
