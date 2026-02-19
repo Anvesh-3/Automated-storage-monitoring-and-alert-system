@@ -1,0 +1,8 @@
+storage-monitoring-system/
+│
+├── monitor.py
+├── alert.py
+├── logger.py
+├── config.py
+├── requirements.txt
+├── README.md
